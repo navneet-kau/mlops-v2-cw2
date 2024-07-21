@@ -23,18 +23,18 @@ variables:
   # DO NOT TOUCH
 
   # For pipeline reference
-  resource_group: rg-$(namespace)
-  aml_workspace: mlw-$(namespace)
-  application_insights: mlw-$(namespace)
-  key_vault: kv-$(namespace)
-  container_registry: cr$(namespace)
-  storage_account: st$(namespace)
+  resource_group: $(namespace)
+  aml_workspace: $(namespace)
+  application_insights: $(namespace)
+  key_vault: $(namespace)
+  container_registry: $(namespace)
+  storage_account: $(namespace)
 
   # For terraform reference
   terraform_version: 0.14.7
   terraform_workingdir: infrastructure
-  terraform_st_resource_group: rg-$(namespace)
+  terraform_st_resource_group: $(namespace)
   terraform_st_location: $(location)
-  terraform_st_storage_account: st$(namespace)
+  terraform_st_storage_account: $(namespace)
   terraform_st_container_name: default
   terraform_st_key: mlops-tab
