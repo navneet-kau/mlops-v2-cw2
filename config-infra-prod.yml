@@ -7,9 +7,9 @@ variables:
   # Global
   ap_vm_image: ubuntu-20.04
 
-  namespace: intelligence-project
+  namespace: mlopslite
  #Note: A namespace with many characters will cause storage  account creation to fail due to storage account names having a limit of 24 characters.
-  postfix:
+  postfix: ao04
   location: westus2
 
   environment: prod
