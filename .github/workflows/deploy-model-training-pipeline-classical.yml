@@ -3,7 +3,7 @@ name: deploy-model-training-pipeline
 on:
   push:
     branches:
-      - Feature/MLAssignment  # Specify the branches that should trigger the workflow on push
+      - spam-detection
   workflow_dispatch:
 
 jobs:

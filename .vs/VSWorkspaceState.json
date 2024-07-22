@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\.github",
+    "\\.github\\workflows",
+    "\\data-science",
+    "\\infrastructure",
+    "\\infrastructure\\modules",
+    "\\mlops",
+    "\\mlops\\azureml",
+    "\\mlops\\azureml\\deploy",
+    "\\mlops\\azureml\\train"
+  ],
+  "SelectedNode": "\\mlops\\azureml\\train\\pipeline.yml",
+  "PreviewInSolutionExplorer": false
+}
